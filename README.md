@@ -9,3 +9,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/richardotr/bloxfruits
 -- annie hub
 loadstring(game:HttpGet("https://raw.githubusercontent.com/richardotr/bloxfruits/main/anniehub"))()
 ```
+```
+-- oni chan
+loadstring(game:HttpGet("https://raw.githubusercontent.com/richardotr/bloxfruits/main/onichan"))()
+```
