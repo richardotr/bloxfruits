@@ -22,7 +22,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/richardotr/bloxfruits
 spawn(function ()
   local plr = game:GetService("Players").localPlayer
 
-  while (1) wait (.1)
+  while true do wait (.1)
     plr.Data.Level.Value = 994
   end
 end)
