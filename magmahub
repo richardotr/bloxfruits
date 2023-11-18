@@ -1841,7 +1841,9 @@ local win = VLib:Window("MagMaHub", "Blox Fruit", Color3.fromRGB(252, 83, 83))
           newworld = true
        end
       function CheckQuest()
-         local MyLevel = game.Players.localPlayer.Data.Level.Value
+         -- local MyLevel = game.Players.localPlayer.Data.Level.Value
+         -- RICHARD SPOOF
+         local MyLevel = 994
          if OldWorld then
             if MyLevel == 1 or MyLevel <= 9 then -- Bandit
                Ms = "Bandit [Lv. 5]"
