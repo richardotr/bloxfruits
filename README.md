@@ -13,3 +13,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/richardotr/bloxfruits
 -- oni chan
 loadstring(game:HttpGet("https://raw.githubusercontent.com/richardotr/bloxfruits/main/onichan"))()
 ```
+-- magmahub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/richardotr/bloxfruits/main/magmahub"))()
+```
