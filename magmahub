@@ -1833,7 +1833,7 @@ local win = VLib:Window("MagMaHub", "Blox Fruit", Color3.fromRGB(252, 83, 83))
        OldWorld = false
        newworld = false
        Test = "Magnet" 
-       local MyLevel = game.Players.localPlayer.Data.Level.Value
+       local MyLevel = 994 -- game.Players.localPlayer.Data.Level.Value RICHARD
        local placeId = game.PlaceId
        if placeId == 2753915549 then
           OldWorld = true
@@ -1841,9 +1841,7 @@ local win = VLib:Window("MagMaHub", "Blox Fruit", Color3.fromRGB(252, 83, 83))
           newworld = true
        end
       function CheckQuest()
-         -- local MyLevel = game.Players.localPlayer.Data.Level.Value
-         -- RICHARD SPOOF
-         local MyLevel = 994
+         local MyLevel = 994 --= game.Players.localPlayer.Data.Level.Value RICHARD
          if OldWorld then
             if MyLevel == 1 or MyLevel <= 9 then -- Bandit
                Ms = "Bandit [Lv. 5]"
@@ -4358,7 +4356,5 @@ local win = VLib:Window("MagMaHub", "Blox Fruit", Color3.fromRGB(252, 83, 83))
      Setting:Button("Destroy Gui",function()
         Library:Destroy()
      end)
-for i  = 0 , math.huge do wait()
-    setclipboard("https://discord.gg/mPUD2Gr9A4")
-      print("Mammos Hub No.1")
-end
+
+
